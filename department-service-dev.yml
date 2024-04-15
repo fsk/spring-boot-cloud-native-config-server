@@ -15,9 +15,9 @@ spring:
     loadbalancer:
       ribbon:
         enable: false
-  output:
-    ansi:
-      enabled: always
+#  output:
+#    ansi:
+#      enabled: always
 
 
 management:
