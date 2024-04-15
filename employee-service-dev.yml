@@ -1,0 +1,12 @@
+project:
+  description: "Development Employee service from config-server from github"
+
+feign:
+  client:
+    config:
+      default:
+        read-timeout: 5000
+        metrics:
+          enabled: true
+        logger-level: full
+        connectTimeout: 5000
