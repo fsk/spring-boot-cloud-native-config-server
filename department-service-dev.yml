@@ -5,6 +5,7 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8061/eureka/
+    register-with-eureka: true
 
 logging:
   pattern:
