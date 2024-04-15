@@ -11,6 +11,10 @@ logging:
     console: "%d{yyyy-MM-dd HH:mm:ss} [%X{traceId:-},%X{spanId:-}] ${LOG_LEVEL_PATTERN:-%5p} %m%n"
 
 spring:
+  cloud:
+    loadbalancer:
+      ribbon:
+        enable: false
   output:
     ansi:
       enabled: always
