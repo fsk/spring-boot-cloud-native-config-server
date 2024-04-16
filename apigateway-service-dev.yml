@@ -1,8 +1,8 @@
-server:
-  port: 8060
-
 project:
   description: "Api Gateway Service"
+
+server:
+  port: 5050
 
 logging:
   pattern:
