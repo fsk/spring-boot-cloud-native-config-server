@@ -1,9 +1,6 @@
 project:
   description: "Development Organization service from config-server from github"
 
-server:
-  port: 9090
-
 eureka:
   client:
     serviceUrl:
